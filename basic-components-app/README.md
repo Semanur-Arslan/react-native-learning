@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# 📱 PatikaStore
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bu proje, React Native öğrenme sürecimin ilk aşaması olarak geliştirilmiştir. Temel bileşenleri ve layout sistemini anlamak amacıyla başlık, arama çubuğu ve ürünleri listeleyen bir mobil uygulama tasarladım.
 
-## Get started
+## 🚀 Kullanılan Teknolojiler
 
-1. Install dependencies
+- Flexbox (Layout Sistemi)
+- Custom Components
+- StyleSheet API
 
-   ```bash
-   npm install
-   ```
+## 📌 Öğrendiklerim
 
-2. Start the app
+Bu aşamada React Native'de şu konuları öğrendim ve uyguladım:
 
-   ```bash
-    npx expo start
-   ```
+### 📷 Temel Bileşenler
 
-In the output, you'll find options to open the app in a
+Image → Ürün görsellerini göstermek için kullanıldı.
+View → Genel kapsayıcı konteynerler için kullanıldı.
+Text → Başlık ve ürün detaylarını göstermek için kullanıldı.
+SafeAreaView → Çentiği olan telefonlarda güvenli alan yönetimi için kullanıldı.
+TextInput → (Henüz işlevsel değil) Arama çubuğu için eklendi.
+FlatList → Ürünleri listelemek için kullanıldı.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 🎨 Layout & Style
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Flexbox ile düzenlemeler yaparak öğelerin yerleşimini sağladım.
+StyleSheet API kullanarak bileşenleri özelleştirdim.
 
-## Get a fresh project
+### 🎛 Custom Components
 
-When you're ready, run:
+ProductCard adlı özel bir bileşen oluşturarak her ürünü bir kart şeklinde gösterdim.
+CustomButton bileşeni ile dokunulabilir bir buton oluşturdum.
 
-```bash
-npm run reset-project
-```
+### 📏 Diğer Kullanılan Özellikler
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+numColumns → FlatList içinde ürünleri iki sütun halinde göstermek için kullanıldı.
+columnWrapperStyle → Sütunlar arasındaki boşlukları ayarlamak için kullanıldı.
+keyExtractor → FlatList içinde her ürünün benzersiz bir id değeri ile render edilmesini sağladım.
+ListFooterComponent → Listenin en altına ekstra bir bileşen ekleyerek içerik tamamlandığında daha iyi bir görünüm sağladım.
+contentContainerStyle → Listeye dış boşluk (padding) eklemek için kullanıldı.
+TouchableOpacity & onPress → Kullanıcı etkileşimini sağlamak için butonları dokunulabilir hale getirdim.
+Dimensions API → Cihaz genişliğini alarak dinamik tasarımlar oluşturmak için kullanıldı.
 
-## Learn more
+##### 📷 Ekran Görüntüsü
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+📌
+<img src="./assets/images/patikastore-1.png" />
+<img src="./assets/images/patikastore-2.png" />
+<img src="./assets/images/patikastore-3.png" />

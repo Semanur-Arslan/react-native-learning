@@ -1,23 +1,24 @@
 import { StyleSheet } from "react-native";
+import { Colors } from "@/constants/Colors";
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "white",
+    backgroundColor: Colors.background,
   },
   title: {
     fontSize: 24,
     fontWeight: "bold",
     padding: 12,
-    color: "purple",
+    color: Colors.primary,
   },
   search_bar: {
     margin: 12,
     borderWidth: 1,
-    borderColor: "#E0E0E0",
+    borderColor: Colors.secondary,
     borderRadius: 12,
     padding: 12,
-    backgroundColor: "#E0E0E0",
+    backgroundColor: Colors.secondary,
   },
   row: {
     justifyContent: "space-between",
@@ -29,7 +30,7 @@ const styles = StyleSheet.create({
   message: {
     textAlign: "center",
     paddingVertical: 12,
-    color: "gray",
+    color: Colors.text,
   },
 });
 

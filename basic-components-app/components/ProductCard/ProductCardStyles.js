@@ -1,15 +1,17 @@
 import { Dimensions, StyleSheet } from "react-native";
+import { Colors } from "@/constants/Colors";
+
 const { width } = Dimensions.get("window");
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#E0E0E0",
+    backgroundColor: Colors.secondary,
     padding: 8,
     margin: 4,
     borderRadius: 8,
   },
   img_container: {
-    backgroundColor: "white",
+    backgroundColor: Colors.background,
     padding: 8,
     alignItems: "center",
     borderRadius: 8,
@@ -29,17 +31,17 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 14,
     fontWeight: "bold",
-    color: "black",
+    color: Colors.black,
   },
   price: {
     fontSize: 14,
     fontWeight: "bold",
-    color: "#606060",
+    color: Colors.text,
   },
   in_stock: {
     fontSize: 14,
     fontWeight: "bold",
-    color: "#CC0000",
+    color: Colors.danger,
   },
 });
 
