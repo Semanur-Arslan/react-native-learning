@@ -43,7 +43,7 @@ Bu aşamada React Native'de şu konuları öğrendim ve uyguladım:
 
 ##### 📷 Ekran Görüntüsü
 <p align="center" width="100%">
-<img src="./assets/images/patikastore-1.png" width="33%" />
-<img src="./assets/images/patikastore-2.png" width="33%" />
-<img src="./assets/images/patikastore-3.png" width="33%" />
+<img src="./assets/images/patikastore-1.png" width="24%" />
+<img src="./assets/images/patikastore-2.png" width="24%" />
+<img src="./assets/images/patikastore-3.png" width="24%" />
 </p>
