@@ -2,7 +2,7 @@ import { Dimensions, StyleSheet } from "react-native";
 import { Colors } from "@/constants/Colors";
 
 const { width } = Dimensions.get("window");
-const styles = StyleSheet.create({
+export default StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: Colors.secondary,
@@ -44,5 +44,3 @@ const styles = StyleSheet.create({
     color: Colors.danger,
   },
 });
-
-export default styles;

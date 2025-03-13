@@ -1,7 +1,7 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Platform } from "react-native";
 import { Colors } from "@/constants/Colors";
 
-const styles = StyleSheet.create({
+export default StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: Colors.background,
@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     padding: 12,
     color: Colors.primary,
+    paddingTop: Platform.OS === "android" ? 32 : 0,
   },
   search_bar: {
     margin: 12,
@@ -33,5 +34,3 @@ const styles = StyleSheet.create({
     color: Colors.text,
   },
 });
-
-export default styles;
