@@ -1,4 +1,4 @@
-# ToDo App
+# ✏️ ToDo App
 
 Bu proje, React Native öğrenme sürecimin ikinci aşaması olarak geliştirilmiştir. Temel olarak, kullanıcıların yapılacak işler listesini oluşturabileceği, öğeleri ekleyip silebileceği ve her öğe için durum değiştirebileceği bir Todo uygulaması tasarlandı. Bu uygulamada, React Native state yönetimi, lifecycle özellikleri, Context API kullanımı ve Express.js ile backend entegrasyonu gibi konuları uygulamalı olarak öğrendim.
 
@@ -43,7 +43,9 @@ Bu aşamada şu konuları öğrendim ve uyguladım:
 
 ##### 📷 Ekran Görüntüsü
 <p align="center" width="100%">
-<img src="./assets/images/patikastore-1.png" width="24%" />
-<img src="./assets/images/patikastore-2.png" width="24%" />
-<img src="./assets/images/patikastore-3.png" width="24%" />
+<img src="./assets/images/patikastore-1.png" width="50%" />
+
+https://github.com/user-attachments/assets/e7613441-5c4d-4c70-acc5-33413d87842e
+
+
 </p>
