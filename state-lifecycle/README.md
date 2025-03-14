@@ -43,7 +43,7 @@ Bu aşamada şu konuları öğrendim ve uyguladım:
 
 ##### 📷 Ekran Görüntüsü
 <p align="center" width="100%">
-<img src="./assets/images/patikastore-1.png" width="50%" />
+<img src="./assets/images/todo.png" width="32%" />
 
 https://github.com/user-attachments/assets/e7613441-5c4d-4c70-acc5-33413d87842e
 
