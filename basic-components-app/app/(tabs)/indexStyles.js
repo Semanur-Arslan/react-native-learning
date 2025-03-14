@@ -26,7 +26,7 @@ export default StyleSheet.create({
     paddingHorizontal: 8,
   },
   list_container: {
-    paddingBottom: 50,
+    paddingBottom: 12,
   },
   message: {
     textAlign: "center",
