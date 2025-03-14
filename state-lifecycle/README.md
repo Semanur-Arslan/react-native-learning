@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# ToDo App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bu proje, React Native öğrenme sürecimin ikinci aşaması olarak geliştirilmiştir. Temel olarak, kullanıcıların yapılacak işler listesini oluşturabileceği, öğeleri ekleyip silebileceği ve her öğe için durum değiştirebileceği bir Todo uygulaması tasarlandı. Bu uygulamada, React Native state yönetimi, lifecycle özellikleri, Context API kullanımı ve Express.js ile backend entegrasyonu gibi konuları uygulamalı olarak öğrendim.
 
-## Get started
+## 🚀 Kullanılan Teknolojiler
 
-1. Install dependencies
+- React Native → Uygulamanın frontend kısmı için kullanıldı.
+- Express.js →  Backend kısmında görevlerin yönetilmesi için kullanıldı.
+- Fetch API → Backend ile veri iletişimi sağlamak için kullanıldı.
+- Context API → Uygulama genelinde state yönetimi ve fetch işlemlerini merkezi bir şekilde yönetmek için kullanıldı.
+- State Management & Lifecycle → useState, useEffect gibi özellikleri kullanıldı.
+- TextInput & TouchableOpacity → Kullanıcı etkileşimlerini sağlamak için kullanıldı.
+- Platform → Uygulamanın farklı platformlarda düzgün çalışmasını sağlamak için platform özellikleri kullanıldı.
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+## 📌 Öğrendiklerim
 
-   ```bash
-    npx expo start
-   ```
+Bu aşamada şu konuları öğrendim ve uyguladım:
 
-In the output, you'll find options to open the app in a
+### State Yönetimi (Context API)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Context API kullanarak uygulama genelinde state yönetimini merkezi bir şekilde yaptım.
+- Context API, uygulama bileşenleri arasında global state paylaşımını sağladı
+- Görevlerin eklenmesi, silinmesi, güncellenmesi gibi işlemleri context üzerinden yönetilerek, her bileşende state güncellemeleri kolayca yapıldı.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+### Lifecycle Yönetimi
 
-When you're ready, run:
+- React Native'de uygulamanın yaşam döngüsünü yönetmek için useEffect kullanarak, API'den veri çekme ve bileşenler arası etkileşimi yönetmeyi öğrendim.
 
-```bash
-npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Backend ve API Entegrasyonu
+- Express.js kullanarak backend API'si geliştirdim. Bu API, uygulamaya yapılacaklar öğelerini eklemek, silmek, güncellemek ve listelemek gibi CRUD işlemleri sundu.
+- Fetch API kullanarak, frontend React Native uygulamamdan backend API'sine veri gönderdim ve aldım. Backend'den veri çekme ve veri gönderme işlemleri sırasında fetch API kullandım.
 
-## Learn more
+### 📏 Diğer Kullanılan Özellikler
 
-To learn more about developing your project with Expo, look at the following resources:
+- TextInput → Kullanıcının yeni yapılacak öğeleri girmesi için TextInput bileşeni kullanıldı.
+- TouchableOpacity & onPress → Kullanıcı etkileşimini sağlamak için butonları dokunulabilir hale getirdim.
+- onChangeText → TextInput bileşeninde kullanıcının girdiği metni takip etmek ve dinamik olarak state güncellemeleri yapmak için kullanıldı.
+- Platform → Uygulamanın Android ve iOS platformlarında farklı davranışlar sergilemesini sağlamak için platform spesifik özellikler kullanıldı.
+-FlatList → Yapılacaklar listesinde öğeleri verimli bir şekilde listelemek için FlatList kullanıldı.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+##### 📷 Ekran Görüntüsü
+<p align="center" width="100%">
+<img src="./assets/images/patikastore-1.png" width="24%" />
+<img src="./assets/images/patikastore-2.png" width="24%" />
+<img src="./assets/images/patikastore-3.png" width="24%" />
+</p>
