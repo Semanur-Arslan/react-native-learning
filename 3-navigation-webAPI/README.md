@@ -1,6 +1,6 @@
 # 📌 TarifkaApp
 
-Bu proje, React Native öğrenme sürecimin üçüncü aşaması olarak geliştirilmiştir. TarifkaApp, kullanıcıların tarifleri keşfedebileceği, tarif detaylarına ulaşabileceği ve youtube üzerinden ilgili tarifin videolarına erişebileceği bir mobil uygulamadır. Bu aşamada, Expo Router, API entegrasyonu, custom hook'lar ve asenkron veri yönetimi gibi konulara odaklandım.
+Bu proje, React Native öğrenme sürecimin üçüncü aşaması olarak geliştirilmiştir. TarifkaApp, kullanıcıların tarifleri keşfedebileceği, tarif detaylarına ulaşabileceği ve youtube üzerinden ilgili tarifin videolarına erişebileceği bir mobil uygulamadır. Bu aşamada, Expo Router, API entegrasyonu, custom hook'lar ve asenkron veri yönetimi gibi konulara odaklanıldı.
 
 ## 🚀 Kullanılan Teknolojiler
 
@@ -24,33 +24,33 @@ Async/Await & Try-Catch → API isteklerini yönetmek ve hata ayıklama işlemle
 
 ### 🔹 Expo Router & Stack Yapısı
 
-Expo Router kullanarak sayfa yönlendirme işlemlerini gerçekleştirdim.
+Expo Router kullanarak sayfa yönlendirme işlemleri gerçekleştirildi.
 
-Stack yapısı ile ekranlar arasında geçişleri düzenledim.
+Stack yapısı ile ekranlar arasında geçişler düzenlendi.
 
 ### 🔹 API Entegrasyonu & Axios
 
-Axios kullanarak API isteklerini yönetmek için GET işlemlerini gerçekleştirdim.
+Axios kullanarak API isteklerini yönetmek için GET işlemleri gerçekleştirildi.
 
-API çağrıları için custom hook'lar oluşturarak kod tekrarını azalttım.
+API çağrıları için custom hook'lar oluşturarak kod tekrarını azaltmak amaçlandı.
 
 ### 🔹 Custom Hook Kullanımı
 
-Fetch işlemlerini yönetmek için özel hook'lar yazdım.
+Fetch işlemlerini yönetmek için özel hook'lar yazıldı.
 
-Custom hook kullanarak veri çekme, hata yönetimi ve loading durumlarını merkezi bir şekilde yönettim.
+Custom hook kullanarak veri çekme, hata yönetimi ve loading durumları merkezi bir şekilde yönetildi.
 
 ### 🔹 Asenkron Veri Yönetimi
 
-Async/Await yapısı ile API çağrılarını asenkron hale getirdim.
+Async/Await yapısı ile API çağrıları asenkron hale getirildi.
 
-Try-Catch kullanarak hata yönetimini optimize ettim.
+Try-Catch kullanarak hata yönetimi optimize edildi.
 
 ### 🔹 UI/UX Geliştirmeleri
 
-ScrollView ile uzun tarif listelerini düzgün bir şekilde kaydırılabilir hale getirdim.
+ScrollView ile uzun tarif listelerini düzgün bir şekilde kaydırılabilir hale getirildi.
 
-ActivityIndicator kullanarak yükleme durumlarında kullanıcıya geri bildirim sağladım.
+ActivityIndicator kullanarak yükleme durumlarında kullanıcıya geri bildirim sağlandı.
 
 ##### 📷 Ekran Görüntüleri
 <p align="center" width="100%">
