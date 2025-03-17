@@ -1,6 +1,6 @@
 # 📌 TarifkaApp
 
-Bu proje, React Native öğrenme sürecimin üçüncü aşaması olarak geliştirilmiştir. TarifkaApp, kullanıcıların tarifleri keşfedebileceği, tarif detaylarına ulaşabileceği ve favori tariflerini kaydedebileceği bir mobil uygulamadır. Bu aşamada, Expo Router, API entegrasyonu, custom hook'lar ve asenkron veri yönetimi gibi konulara odaklandım.
+Bu proje, React Native öğrenme sürecimin üçüncü aşaması olarak geliştirilmiştir. TarifkaApp, kullanıcıların tarifleri keşfedebileceği, tarif detaylarına ulaşabileceği ve youtube üzerinden ilgili tarifin videolarına erişebileceği bir mobil uygulamadır. Bu aşamada, Expo Router, API entegrasyonu, custom hook'lar ve asenkron veri yönetimi gibi konulara odaklandım.
 
 ## 🚀 Kullanılan Teknolojiler
 
@@ -16,23 +16,21 @@ Expo Config (env) → Çevresel değişkenleri yönetmek için kullanıldı.
 
 ScrollView → Uzun içeriklerin kaydırılabilir şekilde görüntülenmesi sağlandı.
 
-Router.push → Kullanıcıların sayfalar arasında geçiş yapmasını sağlamak için kullanıldı.
-
 ActivityIndicator → Veri yükleme durumlarını göstermek için kullanıldı.
 
 Async/Await & Try-Catch → API isteklerini yönetmek ve hata ayıklama işlemlerini optimize etmek için kullanıldı.
 
-## Öğrendiklerim
+## Üzerinde Durulan Konular
 
 ### 🔹 Expo Router & Stack Yapısı
 
 Expo Router kullanarak sayfa yönlendirme işlemlerini gerçekleştirdim.
 
-Stack yapısı ile ekranlar arasında geçişleri düzenledim ve kullanıcı deneyimini iyileştirdim.
+Stack yapısı ile ekranlar arasında geçişleri düzenledim.
 
 ### 🔹 API Entegrasyonu & Axios
 
-Axios kullanarak API isteklerini yönetmek için GET, POST gibi işlemler gerçekleştirdim.
+Axios kullanarak API isteklerini yönetmek için GET işlemlerini gerçekleştirdim.
 
 API çağrıları için custom hook'lar oluşturarak kod tekrarını azalttım.
 
@@ -56,7 +54,8 @@ ActivityIndicator kullanarak yükleme durumlarında kullanıcıya geri bildirim 
 
 ##### 📷 Ekran Görüntüleri
 <p align="center" width="100%">
-<img src="./assets/images/patikastore-1.png" width="24%" />
-<img src="./assets/images/patikastore-2.png" width="24%" />
-<img src="./assets/images/patikastore-3.png" width="24%" />
+<img src="./assets/images/TarifkaApp-1.png" width="24%" />
+<img src="./assets/images/TarifkaApp-2.png" width="24%" />
+<img src="./assets/images/TarifkaApp-3.png" width="24%" />
+<img src="./assets/images/TarifkaApp-4.png" width="24%" />
 </p>
