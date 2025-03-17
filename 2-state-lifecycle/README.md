@@ -13,9 +13,7 @@ Bu proje, React Native öğrenme sürecimin ikinci aşaması olarak geliştirilm
 - Platform → Uygulamanın farklı platformlarda düzgün çalışmasını sağlamak için platform özellikleri kullanıldı.
 
 
-## 📌 Öğrendiklerim
-
-Bu aşamada şu konuları öğrendim ve uyguladım:
+## 📌 Üzerinde Durulan Konular
 
 ### State Yönetimi (Context API)
 
