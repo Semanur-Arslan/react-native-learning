@@ -21,22 +21,21 @@ Bu proje, React Native öğrenme sürecimin ilk aşaması olarak geliştirilmiş
 
 ### 🎨 Layout & Style
 
-- Flexbox ile düzenlemeler yaparak öğelerin yerleşimini sağladım.
-- StyleSheet API kullanarak bileşenleri özelleştirdim.
+- Flexbox ile düzenlemeler yaparak öğelerin yerleşimi sağlandı.
+- StyleSheet API kullanarak bileşenler özelleştirildi.
 
 ### 🎛 Custom Components
 
-- ProductCard adlı özel bir bileşen oluşturarak her ürünü bir kart şeklinde gösterdim.
-- CustomButton bileşeni ile dokunulabilir bir buton oluşturdum.
+- ProductCard adlı özel bir bileşen oluşturularak her ürün bir kart şeklinde gösterildi.
+- CustomButton bileşeni ile bir buton component oluşturuldu.
 
 ### 📏 Diğer Kullanılan Özellikler
 
 - numColumns → FlatList içinde ürünleri iki sütun halinde göstermek için kullanıldı.
 - columnWrapperStyle → Sütunlar arasındaki boşlukları ayarlamak için kullanıldı.
-- keyExtractor → FlatList içinde her ürünün benzersiz bir id değeri ile render edilmesini sağladım.
-- ListFooterComponent → Listenin en altına ekstra bir bileşen ekleyerek içerik tamamlandığında daha iyi bir görünüm sağladım.
+- keyExtractor → FlatList içinde her ürünün benzersiz bir id değeri ile render edilmesini sağlandı.
 - contentContainerStyle → Listeye dış boşluk (padding) eklemek için kullanıldı.
-- TouchableOpacity & onPress → Kullanıcı etkileşimini sağlamak için butonları dokunulabilir hale getirdim.
+- TouchableOpacity & onPress → Kullanıcı etkileşimini sağlamak için butonlar çalışır hale getirildi.
 - Dimensions API → Cihaz genişliğini alarak dinamik tasarımlar oluşturmak için kullanıldı.
 
 ##### 📷 Ekran Görüntüsü
