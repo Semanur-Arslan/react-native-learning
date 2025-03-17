@@ -8,9 +8,7 @@ Bu proje, React Native öğrenme sürecimin ilk aşaması olarak geliştirilmiş
 - Custom Components
 - StyleSheet API
 
-## 📌 Öğrendiklerim
-
-Bu aşamada React Native'de şu konuları öğrendim ve uyguladım:
+## 📌 Üzerinde Durulan Konular
 
 ### 📷 Temel Bileşenler
 
