@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+# 📌 TarifkaApp
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bu proje, React Native öğrenme sürecimin üçüncü aşaması olarak geliştirilmiştir. TarifkaApp, kullanıcıların tarifleri keşfedebileceği, tarif detaylarına ulaşabileceği ve favori tariflerini kaydedebileceği bir mobil uygulamadır. Bu aşamada, Expo Router, API entegrasyonu, custom hook'lar ve asenkron veri yönetimi gibi konulara odaklandım.
 
-## Get started
+## 🚀 Kullanılan Teknolojiler
 
-1. Install dependencies
+React Native → Uygulamanın frontend kısmı için kullanıldı.
 
-   ```bash
-   npm install
-   ```
+Expo Router → Stack yapısı ile sayfa yönlendirmeleri ve gezinme işlemleri için kullanıldı.
 
-2. Start the app
+Axios → API ile veri alışverişi yapmak için kullanıldı.
 
-   ```bash
-    npx expo start
-   ```
+Custom Hook → API çağrılarını daha düzenli hale getirmek ve tekrar eden kodları azaltmak için özel hook'lar oluşturuldu.
 
-In the output, you'll find options to open the app in a
+Expo Config (env) → Çevresel değişkenleri yönetmek için kullanıldı.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+ScrollView → Uzun içeriklerin kaydırılabilir şekilde görüntülenmesi sağlandı.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Router.push → Kullanıcıların sayfalar arasında geçiş yapmasını sağlamak için kullanıldı.
 
-## Get a fresh project
+ActivityIndicator → Veri yükleme durumlarını göstermek için kullanıldı.
 
-When you're ready, run:
+Async/Await & Try-Catch → API isteklerini yönetmek ve hata ayıklama işlemlerini optimize etmek için kullanıldı.
 
-```bash
-npm run reset-project
-```
+## Öğrendiklerim
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 🔹 Expo Router & Stack Yapısı
 
-## Learn more
+Expo Router kullanarak sayfa yönlendirme işlemlerini gerçekleştirdim.
 
-To learn more about developing your project with Expo, look at the following resources:
+Stack yapısı ile ekranlar arasında geçişleri düzenledim ve kullanıcı deneyimini iyileştirdim.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 🔹 API Entegrasyonu & Axios
 
-## Join the community
+Axios kullanarak API isteklerini yönetmek için GET, POST gibi işlemler gerçekleştirdim.
 
-Join our community of developers creating universal apps.
+API çağrıları için custom hook'lar oluşturarak kod tekrarını azalttım.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 🔹 Custom Hook Kullanımı
+
+Fetch işlemlerini yönetmek için özel hook'lar yazdım.
+
+Custom hook kullanarak veri çekme, hata yönetimi ve loading durumlarını merkezi bir şekilde yönettim.
+
+### 🔹 Asenkron Veri Yönetimi
+
+Async/Await yapısı ile API çağrılarını asenkron hale getirdim.
+
+Try-Catch kullanarak hata yönetimini optimize ettim.
+
+### 🔹 UI/UX Geliştirmeleri
+
+ScrollView ile uzun tarif listelerini düzgün bir şekilde kaydırılabilir hale getirdim.
+
+ActivityIndicator kullanarak yükleme durumlarında kullanıcıya geri bildirim sağladım.
+
+##### 📷 Ekran Görüntüleri
+<p align="center" width="100%">
+<img src="./assets/images/patikastore-1.png" width="24%" />
+<img src="./assets/images/patikastore-2.png" width="24%" />
+<img src="./assets/images/patikastore-3.png" width="24%" />
+</p>
