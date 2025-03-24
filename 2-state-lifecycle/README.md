@@ -40,10 +40,14 @@ Bu proje, React Native öğrenme sürecimin ikinci aşaması olarak geliştirilm
 -FlatList → Yapılacaklar listesinde öğeleri verimli bir şekilde listelemek için FlatList kullanıldı.
 
 ##### 📷 Ekran Görüntüsü
-<p align="center" width="100%">
-<img src="./assets/images/todo.png" width="32%" />
+<p  width="5%">
+<img src="./assets/images/todo.png" width="20%" />
+ 
 
-https://github.com/user-attachments/assets/e7613441-5c4d-4c70-acc5-33413d87842e
+https://github.com/user-attachments/assets/776dc9ad-7195-4829-be48-951a82325862
 
 
 </p>
+
+
+
