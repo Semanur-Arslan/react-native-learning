@@ -10,6 +10,7 @@ export default function Favorites() {
   const renderJobCard = ({ item }) => (
     <JobCard job={item} onPress={() => handleClick(item.id)} />
   );
+
   return (
     <View style={styles.container}>
       <FlatList
