@@ -1,55 +1,81 @@
-# Welcome to your Expo app 👋
+# 💼 JobFinderApp
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bu proje, React Native öğrenme sürecimin dördüncü aşaması olarak geliştirilmiştir. JobFinderApp, kullanıcıların iş ilanlarını keşfedebileceği, ilan detaylarına ulaşabileceği ve favori işlerini kaydedebileceği bir mobil uygulamadır. Bu aşamada, Redux Toolkit, asenkron veri yönetimi, dinamik sayfa yapısı ve UI bileşenlerinin özelleştirilmesi gibi konulara odaklanıldı.
 
-## Get started
+## 🚀 Kullanılan Teknolojiler
 
-1. Install dependencies
+React Native → Uygulamanın frontend kısmı için kullanıldı.
 
-   ```bash
-   npm install
-   ```
+Redux Toolkit → Global state yönetimi ve favorilere ekleme/silme işlemleri için kullanıldı.
 
-2. Start the app
+React Native Async Storage & Redux Persist → Kullanıcı verilerinin (favori iş ilanları vb.) kayıtlı kalması sağlandı.
 
-   ```bash
-    npx expo start
-   ```
+Expo Router → Dinamik sayfa yapısı oluşturmak ve sayfa yönlendirmeleri yapmak için kullanıldı.
 
-In the output, you'll find options to open the app in a
+Axios → API ile veri alışverişi yapmak için kullanıldı.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Custom Hook → API isteklerini yönetmek ve kod tekrarını azaltmak için özel hook'lar oluşturuldu.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+React Native HTMLView → API'den gelen HTML içeriğin düzenli şekilde görüntülenmesi sağlandı.
 
-## Get a fresh project
+Expo Linear Gradient → Arayüzde gradient arkaplan kullanımı sağlandı.
 
-When you're ready, run:
+Expo Vector Icons → Uygulama içerisinde ikon kullanımı için tercih edildi.
 
-```bash
-npm run reset-project
-```
+Pagination Yapısı → Sayfa kaydırıldıkça yeni verilerin API'den getirilmesi sağlandı.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Alert Yapısı → Favorilere ekleme ve çıkarma gibi işlemlerde geri bildirim vermek için kullanıldı.
 
-## Learn more
+## Üzerinde Durulan Konular
 
-To learn more about developing your project with Expo, look at the following resources:
+### 🔹 Redux Toolkit ile State Yönetimi
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Global state yönetimi Redux Toolkit ile sağlandı.
 
-## Join the community
+Favorilere ekleme ve çıkarma işlemleri Redux store üzerinden yönetildi.
 
-Join our community of developers creating universal apps.
+Redux Persist ve Async Storage entegrasyonu ile favori iş ilanlarının uygulama kapanıp açıldığında korunması sağlandı.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 🔹 API Entegrasyonu & Axios
+
+Axios kullanılarak API işlemleri gerçekleştirildi.
+
+API verileri pagination destekleyecek şekilde hook yapısına uygun olarak yönetildi.
+
+Veri çekme, hata yönetimi ve loading durumu için custom hook'lar oluşturuldu.
+
+### 🔹 Dinamik Sayfa Yapısı & Expo Router
+
+Expo Router'ın dinamik sayfa yapısı kullanılarak detay sayfaları id parametresi ile oluşturuldu.
+
+Özelleştirilmiş geri düğmesi ve sayfa başlıkları kullanıldı
+
+### 🔹 UI/UX Geliştirmeleri
+
+Custom Header ve Back Button → Default başlık ve geri butonları yerine özelleştirilmiş bileşenler kullanıldı.
+
+React Native HTMLView → API'den gelen iş ilanı detayları HTML formatında olduğu için HTMLView paketi ile düzenli görüntülenmesi sağlandı.
+
+Expo Linear Gradient → Arayüzde gradient arkaplan ile daha modern bir tasarım elde edildi.
+
+Pagination Desteği → Sayfa kaydırıldıkça yeni ilanlar getirilerek sonsuz kaydırma yapısı sağlandı.
+
+### 🔹 Kullanıcı Deneyimi ve Bildirimler
+
+Favorilere ekleme/çıkarma işlemlerinde Alert Kullanımı → Kullanıcıya geri bildirim vermek için alert mesajları kullanıldı.
+
+Loading & Error Yönetimi → Veri çekme süresince loading gösterildi, hata durumları için uygun mesajlar sunuldu.
 
 
-<p align="center">
-  <video src="./assets/images/app-images/jobApp.mp4" controls></video>
+##### 📷 Ekran Görüntüleri
+<p align="center" width="100%">
+<img src="./assets/images/app-images/jobApp-1.png" width="24%" />
+<img src="./assets/images/app-images/jobApp-2.png" width="24%" />
+<img src="./assets/images/app-images/jobApp-3.png" width="24%" />
 </p>
+
+
+https://github.com/user-attachments/assets/ee091434-1553-4e47-a4d9-d7e282d3ae0f
+
+
+
