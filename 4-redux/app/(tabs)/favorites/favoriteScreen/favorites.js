@@ -1,4 +1,4 @@
-import { View, FlatList } from "react-native";
+import { View, FlatList, Text } from "react-native";
 import styles from "./favoritesStyles";
 import JobCard from "../../../../components/jobCard/jobCard";
 
@@ -13,12 +13,18 @@ export default function Favorites() {
 
   return (
     <View style={styles.container}>
-      <FlatList
-        data={favoriteJobs}
-        renderItem={renderJobCard}
-        keyExtractor={(item) => item.id}
-        ListFooterComponentStyle={{ paddingVertical: 24 }}
-      />
+      {favoriteJobs.length > 0 ? (
+        <FlatList
+          data={favoriteJobs}
+          renderItem={renderJobCard}
+          keyExtractor={(item) => item.id}
+          ListFooterComponentStyle={{ paddingVertical: 24 }}
+        />
+      ) : (
+        <Text style={styles.message}>
+          You have not added any jobs to your favorites yet.
+        </Text>
+      )}
     </View>
   );
 }

@@ -28,10 +28,15 @@ export default StyleSheet.create({
   company: {
     color: Colors.lightBlack,
     fontWeight: "400",
+    width: "70%",
+    overflow: "hidden",
   },
   date: {
     color: Colors.lightBlack,
     fontWeight: "400",
+    width: "30%",
+    overflow: "hidden",
+    textAlign: "right",
   },
   location: {
     backgroundColor: Colors.secondary,
